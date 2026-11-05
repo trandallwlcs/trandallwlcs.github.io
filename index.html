@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doberman Pinscher - Breed Guide</title>
+
+    <!-- Requirement #6: HTML Favicon using SVG Data URI -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>">
+
+    <!-- Requirement #1 & #4: HTML CSS - Internal style setting body background-color using HEX (#efede6) -->
+    <style>
+        body {
+            background-color: #efede6; /* Non-white background color using HEX */
+            color: #2b2b2b; /* Text color in HEX */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        header {
+            background-color: #1a1a1a; /* Dark sleek header color using HEX */
+            color: #d4af37; /* Metallic gold accents using HEX */
+            padding: 25px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: #cccccc;
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            border: 3px solid #8b0000; /* Deep red border in HEX */
+        }
+
+        .caption {
+            font-size: 0.9rem;
+            color: rgb(100, 100, 100); /* RGB color format */
+            margin-top: 8px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #8b0000; /* HEX color */
+            border-bottom: 2px solid #8b0000;
+            padding-bottom: 5px;
+        }
+
+        /* Requirement #8: Styling for HTML Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2c3e50; /* Dark slate blue HEX */
+            color: #ffffff;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(245, 245, 245); /* RGB color */
+        }
+
+        /* Styling for List */
+        ul {
+            background-color: #fdfaf4;
+            padding: 20px 20px 20px 40px;
+            border-left: 4px solid #d4af37;
+            border-radius: 4px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #8b0000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Requirement #11: Webpage Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 0.95rem;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .highlight {
+            background-color: rgb(255, 243, 205);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>The Majestic Doberman Pinscher</h1>
+            <p class="subtitle">Intelligence, Loyalty, and Elegance</p>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Introduction Section -->
+            <section>
+                <h2>Overview</h2>
+                <!-- Requirement #5: HTML Formatting (<strong>, <em>, <mark>) -->
+                <p>
+                    The <strong>Doberman Pinscher</strong> is a medium-large, sleek, and powerfully built dog breed originally developed in Germany around 1890 by <em>Karl Friedrich Louis Dobermann</em>. Known for their incredible intelligence and <mark class="highlight">unwavering loyalty</mark>, Dobermans excel as personal companions, guard dogs, and working military or police dogs.
+                </p>
+            </section>
+
+            <!-- Requirement #10: HTML Image with proper attributes (src, alt, title) -->
+            <section class="image-container">
+                <img src="https://images.unsplash.com/photo-1567752881298-894bb81f9379?auto=format&fit=crop&w=1000&q=80" 
+                     alt="Sleek, traditional black and rust adult Doberman Pinscher" 
+                     title="Traditional Adult Doberman Pinscher">
+                <div class="caption">A sleek, traditional adult Doberman Pinscher showcasing classic black and rust markings.</div>
+            </section>
+
+            <!-- Requirement #9: HTML List -->
+            <section>
+                <h2>Key Breed Characteristics</h2>
+                <p>Here are some of the defining traits that make Dobermans exceptional dogs:</p>
+                <ul>
+                    <li><strong>High Intelligence:</strong> Ranked among the top smartest dog breeds worldwide.</li>
+                    <li><strong>Natural Protector:</strong> Possesses a keen instinct to protect their home and family.</li>
+                    <li><strong>High Energy:</strong> Requires daily physical exercise and mental stimulation.</li>
+                    <li><strong>Affectionate Temperament:</strong> Often dubbed "velcro dogs" for wanting to stay close to their owners.</li>
+                    <li><strong>Sleek Coat:</strong> Short, smooth coat that requires minimal grooming maintenance.</li>
+                </ul>
+            </section>
+
+            <!-- Requirement #8: HTML Table -->
+            <section>
+                <h2>Breed Quick Facts & Ratings</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Rating / Details</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Energy Level</strong></td>
+                            <td>5 / 5</td>
+                            <td>Highly energetic; thrives on running and agility work.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Trainability</strong></td>
+                            <td>5 / 5</td>
+                            <td>Learns quickly and eager to please their handler.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Grooming Needs</strong></td>
+                            <td>1 / 5</td>
+                            <td>Low maintenance; weekly brushing is sufficient.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Average Height</strong></td>
+                            <td>24 - 28 inches</td>
+                            <td>Measured at the shoulder.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Average Weight</strong></td>
+                            <td>60 - 100 lbs</td>
+                            <td>Males are typically larger than females.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Requirement #3: HTML Inline Style applied somewhere -->
+            <section style="text-align: center; margin-top: 40px; padding: 15px; background-color: rgb(240, 238, 233); border-radius: 6px;">
+                <h3 style="color: #8b0000; font-size: 1.3rem; margin-top: 0;">Learn More About Dobermans</h3>
+                <p>Want to explore official breed standards and health information?</p>
+
+                <!-- Requirement #7 & #2: HTML Links with target="_blank" -->
+                <p>
+                    Visit the official <a href="https://www.akc.org/dog-breeds/doberman-pinscher/" target="_blank" rel="noopener noreferrer" title="AKC Doberman Pinscher Page">American Kennel Club (AKC) Doberman Pinscher Page</a> to read more.
+                </p>
+            </section>
+        </main>
+
+        <!-- Requirement #11: Webpage Footer -->
+        <footer>
+            This webpage was created using Gemini
+        </footer>
+    </div>
+
+</body>
+</html>
